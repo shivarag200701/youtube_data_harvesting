@@ -87,15 +87,15 @@ Perform a list of SQL queries on the generated SQL tables.
 > `Loading` Data into SQL
 
 ## Application Flow
-Select `Data Retrieval and Processing` Page from dropdown menu at the sidebar.
+Input the Channel Id and click on `Retrieve Channel Data` in order to retrive data from Youtube API.
 
-Input the Channel Id and click on `Get Channel Statistics` in order to retrive data from Youtube API.
+Select `Retrieve Channel Data` button from Retrieve Channel Data menu at the tabs section.
 
-Next click on `Push to MongoDB` to store data in MongoDB Lake.
+Click on `Store Data In MongoDB Atlas` to store data in MongoDB Lake.
 
-Select a channel name from the dropdown `Channel Details` and click on `Push to SQL` to import data into PostgreSQL.
+Click on `Retrieve Data From MongoDB Atlas` to check whether the data is stored properly in MongoDB.
 
-Once imported, you can select the `Analysis and Reports` Page from the drop down to get a detailed analysis of the collected data.
+Create tables in SQL using `Create tables In SQL`.
 
 
 ## Additional Information
