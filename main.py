@@ -27,7 +27,7 @@ client = MongoClient(
 # mongodb+srv://ashispalailearning2022:<password>@cluster0.rjsvnlc.mongodb.net/
 db = client['youtube_data']
 collection = db['channel_data']
-Api_key='AIzaSyBsKFnsDGfcaHGCHo77OuWsU5uCk2FdFvY'
+Api_key='AIzaSyC_laR3HIu2pg-6ahDmA0R3e1mETLjZdfw'
 # Set Streamlit app title
 st.title("YouTube Data Harvesting and Warehousing")
 
