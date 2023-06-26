@@ -97,6 +97,19 @@ Click on `Retrieve Data From MongoDB Atlas` to check whether the data is stored 
 
 Create tables in SQL using `Create tables In SQL`.
 
+Click on `Migrate channel information from MongoDB Atlas to SQL` to migrate channel information from MongoDB Lake to MySQL.
+
+Click on `Migrate video information from MongoDB Atlas to SQL` to migrate video information from MongoDB lake to MySQL.
+
+Click on `Migrate comment information from MongoDB Atlas to SQL` to migrate comment information from MongoDB lake to MySQL.
+
+`channel analysis` tab allows the user to select a set of 10 queries to run over the generated SQL tables
+
+
+
+
+
+
 
 ## Additional Information
 Please note that when using this application, it is essential to comply with the YouTube Data API's terms of service and adhere to its usage limits to ensure uninterrupted access to the API. If you encounter any issues or have questions regarding the YouTube Data Scraper, please refer to the project's detailed documentation available in the GitHub repository.
@@ -105,4 +118,4 @@ Please note that when using this application, it is essential to comply with the
 The YouTube Data Scraper is released under the MIT License. Feel free to modify and use the code according to the terms of the license.
 
 ## Conclusion
-This YouTube API scrapper project aims to provide a powerful tool for retrieving, analyzing, and visualizing YouTube data, enabling users to gain valuable insights into channel performance, video engagement, and audience feedback.
+This YouTube API scrapper project aims to provide a powerful tool for retrieving, analyzing, visualizing YouTube data, and storing data in Data Lake and SQL SERVER,  enabling users to gain valuable insights into channel performance, video engagement, and audience feedback.
